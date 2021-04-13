@@ -12,7 +12,7 @@
 
    <div class="thank-you-section">
        <h1>Thank you for <br> Your Order!</h1>
-       <p>A confirmation email was sent</p>
+       <p>A confirmation email with download link was sent</p>
        <div class="spacer"></div>
        <div>
            <a href="{{ url('/') }}" class="button">Home Page</a>
