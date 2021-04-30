@@ -147,11 +147,11 @@ html {
 
 a {
   text-decoration: none;
-  color: #1d3557;
+  color: #212121;
 }
 
 a:visited {
-  color: #1d3557;
+  color: #212121;
 }
 
 a:hover {
@@ -159,7 +159,7 @@ a:hover {
 }
 
 .logo a {
-  color: #ffffff;
+  color: #e9e9e9;
 }
 
 h1 {
@@ -172,10 +172,6 @@ h2 {
 
 img {
   max-width: 100%;
-}
-
-.product-img{
-  max-width: 50%;
 }
 
 .clearfix::after {
@@ -200,7 +196,7 @@ h1,
 h2,
 .product-section-subtitle,
 .product-section-price {
-  font-family: 'Pacifico', cursive;
+  font-family: "Montserrat", Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -221,7 +217,7 @@ h1.stylish-heading:after {
   left: 0;
   width: 66px;
   height: 1px;
-  background: #1d3557;
+  background: #212121;
   content: "";
   display: block;
 }
@@ -283,23 +279,23 @@ strong {
 }
 
 .button {
-  border: 1px solid #1d3557;
+  border: 1px solid #212121;
   padding: 12px 40px;
 }
 
 .button:hover {
-  color: #ffffff;
-  background: #1d3557;
+  color: #e9e9e9;
+  background: #212121;
 }
 
 .button-white {
-  border: 1px solid #ffffff;
-  color: #ffffff !important;
+  border: 1px solid #e9e9e9;
+  color: #e9e9e9 !important;
 }
 
 .button-white:hover {
-  color: #1d3557 !important;
-  background: #ffffff;
+  color: #212121 !important;
+  background: #e9e9e9;
 }
 
 .button-primary {
@@ -318,7 +314,7 @@ strong {
 }
 
 .button-plain {
-  border: 1px solid #1d3557 !important;
+  border: 1px solid #212121 !important;
   background: transparent;
 }
 
@@ -836,7 +832,7 @@ form button[type=submit] {
 header.with-background {
   background: url("/img/triangles.svg");
   background-size: cover;
-  color: #ffffff;
+  color: #e9e9e9;
 }
 
 header.with-background .top-nav {
@@ -852,7 +848,7 @@ header.with-background .top-nav .logo {
 }
 
 header.with-background .top-nav ul a {
-  color: #ffffff;
+  color: #e9e9e9;
 }
 
 header.with-background .top-nav ul a:hover {
@@ -885,7 +881,7 @@ header.with-background .hero .button {
 }
 
 header {
-  background: #dc3545;
+  background: #535353;
 }
 
 header .top-nav {
@@ -898,7 +894,7 @@ header .top-nav {
 header .top-nav .logo {
   font-weight: bold;
   font-size: 28px;
-  color: #ffffff;
+  color: #e9e9e9;
   margin-right: 58px;
 }
 
@@ -918,7 +914,7 @@ header .top-nav ul li:last-child {
 }
 
 header .top-nav ul a {
-  color: #ffffff;
+  color: #e9e9e9;
 }
 
 header .top-nav ul a:hover {
@@ -928,7 +924,7 @@ header .top-nav ul a:hover {
 header .top-nav ul .cart-count {
   display: inline-block;
   background: #FFD94D;
-  color: #1d3557;
+  color: #212121;
   line-height: 0;
   border-radius: 50%;
   font-size: 14px;
@@ -952,8 +948,8 @@ header .top-nav-right {
 }
 
 footer {
-  background: #dc3545;
-  color: #ffffff;
+  background: #535353;
+  color: #e9e9e9;
   padding: 40px 0;
 }
 
@@ -973,7 +969,7 @@ footer {
 }
 
 .footer-content a {
-  color: #ffffff;
+  color: #e9e9e9;
 }
 
 .featured-section {
@@ -982,7 +978,7 @@ footer {
 
 .featured-section .products {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 60px 30px;
 }
 
@@ -1108,7 +1104,7 @@ footer {
 
 .product-section-price {
   font-size: 38px;
-  color: #1d3557;
+  color: #212121;
   margin-bottom: 16px;
 }
 
@@ -1167,7 +1163,7 @@ footer {
 }
 
 .cart-section .cart-table-row .cart-options {
-  color: #1d3557;
+  color: #212121;
   background: transparent;
   font-size: 14px;
   font-weight: 300;
@@ -1241,7 +1237,7 @@ footer {
 }
 
 .cart-section .have-code-container input[type=submit]:hover {
-  background: #1d3557;
+  background: #212121;
 }
 
 h1.checkout-heading {
@@ -1410,7 +1406,7 @@ h1.checkout-heading {
 }
 
 .ais-refinement-list--label {
-  color: #1d3557 !important;
+  color: #212121 !important;
   font-size: 18px !important;
   display: flex;
   align-items: center;
@@ -1421,7 +1417,7 @@ h1.checkout-heading {
 }
 
 .ais-refinement-list--count {
-  color: #1d3557 !important;
+  color: #212121 !important;
   background: rgba(39, 81, 108, 0.2) !important;
   margin-left: auto;
   margin-right: 57px;
@@ -1455,8 +1451,8 @@ h1.checkout-heading {
 }
 
 .auth-pages .auth-button {
-  background: #1d3557;
-  color: #ffffff;
+  background: #212121;
+  color: #e9e9e9;
   border-radius: 5px;
   padding: 12px 50px;
 }
@@ -1467,15 +1463,15 @@ h1.checkout-heading {
 
 .auth-pages .auth-button-hollow {
   background: white;
-  color: #1d3557;
+  color: #212121;
   border-radius: 5px;
-  border: 1px solid #1d3557;
+  border: 1px solid #212121;
   padding: 12px 50px;
 }
 
 .auth-pages .auth-button-hollow:hover {
-  background: #1d3557;
-  color: #ffffff;
+  background: #212121;
+  color: #e9e9e9;
 }
 
 .auth-pages .auth-right {
@@ -1504,8 +1500,8 @@ h1.checkout-heading {
 }
 
 .my-profile .my-profile-button {
-  background: #1d3557;
-  color: #ffffff;
+  background: #212121;
+  color: #e9e9e9;
   border-radius: 5px;
   padding: 12px 50px;
 }
